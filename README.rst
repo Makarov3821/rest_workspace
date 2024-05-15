@@ -77,10 +77,14 @@ Installation
    - libopenblas.so
      =========================================================
      -> git clone https://github.com/xianyi/OpenBLAS.git OpenBLAS
+
      -> cd OpenBLAS
+
      -> make -jN
         The variable "N" represents a integer value that indicates the number of CPUs you wish to use for the compilation process.
+
      -> cp libopenblas.so $REST_EXT_DIR/libopenblas.so
+
      =========================================================
    - libcint.so
      =========================================================
